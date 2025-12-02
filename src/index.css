@@ -1,0 +1,23 @@
+
+/* Reset default spacing and set full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+:root {
+  --color-bg: #0f3d0f;         /* dark ninja green */
+  --color-primary: #1f8f1f;    /* emerald green for buttons */
+  --color-accent: #4cff4c;     /* bright ninja accent */
+  --color-text: #c8ffc8;       /* pale text color */
+  --color-hover: #5aff5a;      /* hover color */
+}
